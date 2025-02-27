@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.home-header {
+  position: relative;
+  height: 100vh;
+  background-image: url("src/assets/church.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: white;
+  color:black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: 2px solid;
+  border-color: white;
+}
+.secondary-button {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 12px 24px;
+  background-color: white;
+  color:black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: 2px solid;
+  border-color: white;
+}
+.bottomrow{
+  display: flex;
+  margin: auto;
+}
+.eventcontainer{
+position: relative;
+width: 50%;
+float: left;
+padding: 50px 50px 50px 50px;
+}
+.eventcontainer p{
+font-size: 15px;
+padding-top: 40px;
+}
+.facebookcontainer{
+  position: relative;
+  width: 50%;
+  float: left;
+  padding: 50px 50px 50px 50px;
+}
+.facebookcontainer p{
+    font-size: 15px;
+    padding-top: 40px;
+  }
+  .social-btn:hover{
+    background-color: black;
+    color: white;
+  }
+  .social-btn{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: white;
+    color:black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: 2px solid;
+    border-color: black;
+    position: absolute;
+    bottom: 5px;
+  }
+/* Media Queries for Responsiveness */
+
+/* For smaller devices like smartphones */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .cta-button {
+    font-size: 1rem;
+  }
+  .secondary-button {
+    font-size: 1rem;
+  }
+  .bottomrow{
+    display: grid;
+  }
+  .eventcontainer{
+    width: 100%;
+  }
+  .facebookcontainer{
+    width: 100%;
+  }
+}
+
+@media screen and (max-height:300px){
+  .home-header{
+    height: 100%;
+  }
+}
+
+/* For tablets and larger smartphones */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+  .cta-button {
+    margin-bottom: 10px;
+  }
+}
+
+/* For larger screens like desktops and laptops */
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .cta-button {
+    font-size: 1.5rem;
+  }
+  .secondary-button {
+    font-size: 1.5rem;
+  }
+}

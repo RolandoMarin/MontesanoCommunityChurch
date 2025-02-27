@@ -1,0 +1,21 @@
+.pageTitle{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-size: cover;
+    background-position:50% 30%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-image: url("src/assets/Baptism.jpg");
+}
+.container{
+  max-width: 1200px;
+}
+h2{
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+.header{
+  text-align: center;
+  text-decoration: underline;
+}
