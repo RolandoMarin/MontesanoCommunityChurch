@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ChurchWebPage:build:production"
+              "buildTarget": "ChurchWebPage:build:production"
             },
             "development": {
-              "browserTarget": "ChurchWebPage:build:development"
+              "buildTarget": "ChurchWebPage:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ChurchWebPage:build"
+            "buildTarget": "ChurchWebPage:build"
           }
         },
         "test": {
